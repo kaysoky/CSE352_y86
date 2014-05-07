@@ -1,0 +1,1 @@
+ -erf "Z:\ActiveHDLWorkspace\Y86\Simple\compile\Simple.erf" -work Simple -lc Z:/ActiveHDLWorkspace/Y86/library.cfg -fl Z:/ActiveHDLWorkspace/Y86/Simple/projlib.cfg -o Z:/ActiveHDLWorkspace/Y86/Simple/compile -l "Simple" -sve   -O2

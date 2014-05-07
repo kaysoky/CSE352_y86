@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 9.3\bin/systf.dll" -v2k5  "Z:\ActiveHDLWorkspace\Y86\Simple\src\y86_incrementPC.v"  -cs  -g 5  -r -li "Z:\ActiveHDLWorkspace\Y86\Simple\compile\Simple.epr" -p "Z:\ActiveHDLWorkspace\Y86\Simple\Simple" 

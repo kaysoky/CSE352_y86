@@ -1,0 +1,17 @@
+.\src\ClockGen.v
+.\src\mux2.v
+.\src\register.v
+.\src\y86_controller.v
+.\src\y86_cpu.bde
+.\src\y86_incrementPC.v
+.\src\y86_iram.v
+.\src\y86_SIM_top.bde
+.\src\y86_simtrace.v
+.\src\y86_splitInstruction.v
+.\src\add1.v
+.\src\add4.v
+.\src\add16.v
+.\src\add32.v
+.\src\alu.v
+.\src\cla4.v
+.\src\regfile8x32.v

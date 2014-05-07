@@ -1,0 +1,127 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Simple
+
+[Library]
+Simple=.\Simple\Simple.lib
+lib370=.\..\..\lib370\lib370.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=Z:\ActiveHDLWorkspace\Lab5\y86\src
+WireDelay=2
+IMPL_TOOL=
+SYNTH_TOOL=
+
+[LocalVerilogSets]
+EnableSLP=0
+EnableDebug=0
+MonitoringOfEventsUDP=0
+DisablePulseError=0
+PulseErrorFilter=0
+ErrorLimit=100
+RejectionLimit=100
+SetErrorLimit=0
+SetRejectionLimit=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+LibNames=
+PriorityLibNames=
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Simple=.
+Active_lib=
+lib370=.
+
+[Folders]
+Name3=Makefiles
+Directory3=Z:\ActiveHDLWorkspace\Y86\Simple\
+Extension3=mak
+Name4=Memory
+Directory4=Z:\ActiveHDLWorkspace\Y86\Simple\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=Z:\ActiveHDLWorkspace\Y86\Simple\
+Extension5=dll
+Name6=PDF
+Directory6=Z:\ActiveHDLWorkspace\Y86\Simple\
+Extension6=pdf
+Name7=HTML
+Directory7=Z:\ActiveHDLWorkspace\Y86\Simple\
+Extension7=
+
+[SpecTracer]
+WindowVisible=0
+
+[Files]
+/ClockGen.v=-1
+/mux2.v=-1
+/register.v=-1
+/testv1.hex=-1
+/testv1.ys=-1
+/y86_controller.v=-1
+/y86_cpu.bde=-1
+/y86_incrementPC.v=-1
+/y86_iram.v=-1
+/y86_SIM_top.bde=-1
+/y86_simtrace.v=-1
+/y86_splitInstruction.v=-1
+/add1.v=-1
+/add4.v=-1
+/add16.v=-1
+/add32.v=-1
+/alu.v=-1
+/cla4.v=-1
+/regfile8x32.v=-1
+
+[Files.Data]
+.\src\ClockGen.v=Verilog Source Code
+.\src\mux2.v=Verilog Source Code
+.\src\register.v=Verilog Source Code
+.\src\testv1.hex=Memory File
+.\src\testv1.ys=External File
+.\src\y86_controller.v=Verilog Source Code
+.\src\y86_cpu.bde=Block Diagram
+.\src\y86_incrementPC.v=Verilog Source Code
+.\src\y86_iram.v=Verilog Source Code
+.\src\y86_SIM_top.bde=Block Diagram
+.\src\y86_simtrace.v=Verilog Source Code
+.\src\y86_splitInstruction.v=Verilog Source Code
+.\src\add1.v=Verilog Source Code
+.\src\add4.v=Verilog Source Code
+.\src\add16.v=Verilog Source Code
+.\src\add32.v=Verilog Source Code
+.\src\alu.v=Verilog Source Code
+.\src\cla4.v=Verilog Source Code
+.\src\regfile8x32.v=Verilog Source Code
+
+
+[file_out:/y86_SIM_top.bde]
+/..\compile\y86_SIM_top.v=-1
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[file_out:/y86_cpu.bde]
+/..\compile\y86_cpu.v=-1

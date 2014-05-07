@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<!----------------------------------------------------------------------------->
+<!--                          BEGIN HTML HEAD                                -->
+<!--                                                                         -->
+
+<HEAD>
+<TITLE>DRC Report File - y86_cpu.bde</TITLE>
+<STYLE>
+.Err	{color:'#FF0000';cursor:hand;text-decoration:underline;}
+.Warn	{color:'#0000FF';cursor:hand;text-decoration:underline;}
+.Info	{color:'#000000';cursor:hand;text-decoration:underline;}
+.Sccss  {color:'#009600';cursor:hand;text-decoration:underline;}
+.ErrH	{color:'#FF0000';cursor:hand;text-decoration:underline;}
+.WarnH	{color:'#0000FF';cursor:hand;text-decoration:underline;}
+.InfoH	{color:'#000000';cursor:hand;text-decoration:underline;}
+.Err1	{color:'#FF0000';}
+.Warn1	{color:'#0000FF';}
+.Info1	{color:'#000000';}
+.Sccss1 {color:'#009600';}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="white" TEXT="black" LINK="blue" VLINK="purple" BACKGROUND="C:\Aldec\Active-HDL 9.3\\Flows\Res\default.bmp">
+<FONT FACE="Serif">
+<tt>
+<!--                                                                         -->
+<!--                             END HEADER                                  -->
+<!----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------->
+<!--                            BEGIN VBSCRIPT                               -->
+<!--                                                                         -->
+<SCRIPT LANGUAGE=JSCRIPT>
+	function RollOn() {
+		switch(window.event.srcElement.className) {
+			case 'Err':
+				window.event.srcElement.className = 'ErrH'; break;
+			case 'Warn':
+				window.event.srcElement.className = 'WarnH'; break;
+			case 'Info':
+				window.event.srcElement.className = 'InfoH'; break;
+		}
+	}
+	function RollOff() {
+		switch(window.event.srcElement.className) {
+			case 'ErrH':
+				window.event.srcElement.className = 'Err'; break;
+			case 'WarnH':
+				window.event.srcElement.className = 'Warn'; break;
+			case 'InfoH':
+				window.event.srcElement.className = 'Info'; break;
+		}
+	}
+	function OnError(sMsg,sUrl,sLine) {
+		return true;
+	}
+	
+	document.onmouseover = RollOn;
+	document.onmouseout = RollOff;
+	window.onerror = OnError;
+</SCRIPT>
+
+<SCRIPT LANGUAGE=VBSCRIPT>
+
+Function IID_IDispatch
+	IID_IDispatch = "{00020400-0000-0000-C000-000000000046}"
+End Function
+
+Function CLSID_Executor
+	CLSID_Executor = "Aldec.ExePlugIn.Generic.7"
+End Function
+
+
+Sub OpenPlugIn (progid, template, document, element, string)
+
+	Dim executor, command
+
+	Set executor = window.external.aldec.connector.OpenPlugIn(CLSID_Executor, IID_IDispatch)
+
+	command = "?Activate[<"+progid+">][<"+template+">][<"+document+">][<"+element+">][<"+string+">]"
+
+	executor.ExecuteCommand command, ""
+
+End Sub
+
+
+</SCRIPT>
+<!--                                                                         -->
+<!--                             END VBSCRIPT                                -->
+<!----------------------------------------------------------------------------->
+
+<H2>DRC Report File - y86_cpu.bde</H2>
+
+Created on Tue 2014-05-06 at 15:55:39
+<HR NOSHADE COLOR="#008080">
+<SPAN class=Info1>Checking file 'Z:\ActiveHDLWorkspace\Y86\Simple\src\y86_cpu.bde'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=24166');">symbol 'y86_alu' is empty. Compile to the library a source file with a description of symbol contents.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">symbol 'y86_controller' is empty. Compile to the library a source file with a description of symbol contents.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=2110');">symbol 'y86_incrementPC' is empty. Compile to the library a source file with a description of symbol contents.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">symbol 'y86_regfile' is empty. Compile to the library a source file with a description of symbol contents.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">symbol 'y86_splitInstruction' is empty. Compile to the library a source file with a description of symbol contents.</SPAN><BR>
+<SPAN class=Info1>To settle inconsistencies between symbols and their contents apply the Compare Symbol with Contents command to each of the reported symbols.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=2110');">Unconnected input port 'currentPC(31:0)'. Instance 'IncPC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=2110');">Unconnected input port 'need_regids'. Instance 'IncPC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=2110');">Unconnected input port 'need_valC'. Instance 'IncPC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=2110');">Unconnected input port 'reset'. Instance 'IncPC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=2110');">Unconnected input port 'halt'. Instance 'IncPC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected input port 'clk'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected input port 'reset'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected input port 'write'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected input port 'srcA(2:0)'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected input port 'srcB(2:0)'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected input port 'ValE(31:0)'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected input port 'dstE(2:0)'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21394');">Unconnected input port 'clk'. Instance 'PC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21394');">Unconnected input port 'reset'. Instance 'PC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21394');">Unconnected input port 'D(N-1:0)'. Instance 'PC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected input port 'rA(3:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected input port 'rB(3:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected input port 'icode(3:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected input port 'ifun(3:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=24166');">Unconnected input port 'OP(1:0)'. Instance 'ALU'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=24166');">Unconnected input port 'valA(31:0)'. Instance 'ALU'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=24166');">Unconnected input port 'valB(31:0)'. Instance 'ALU'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">Unconnected output port 'icode(3:0)'. Instance 'Decode'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">Unconnected output port 'ifun(3:0)'. Instance 'Decode'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">Unconnected output port 'need_regids'. Instance 'Decode'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">Unconnected output port 'need_ValC'. Instance 'Decode'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">Unconnected output port 'rA(3:0)'. Instance 'Decode'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">Unconnected output port 'rB(3:0)'. Instance 'Decode'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=162');">Unconnected output port 'valC(31:0)'. Instance 'Decode'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=2110');">Unconnected output port 'valP(31:0)'. Instance 'IncPC'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected output port 'valA(31:0)'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=21220');">Unconnected output port 'valB(31:0)'. Instance 'RegFile'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected output port 'srcA(3:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected output port 'srcB(3:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected output port 'aluBSelect'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected output port 'halt'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected output port 'aluASelect'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected output port 'alufun(1:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=23028');">Unconnected output port 'dstE(3:0)'. Instance 'Controller'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=24166');">Unconnected output port 'valE(31:0)'. Instance 'ALU'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=19269');">Unconnected terminal 'CLK'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','Z:\\ActiveHDLWorkspace\\Y86\\Simple\\src\\y86_cpu.bde','','-errorid=19275');">Unconnected terminal 'RESET'.</SPAN><BR>
+<SPAN class=Warn1>y86_cpu.bde - 0 error(s), 47 warning(s)</SPAN><BR>
+<SPAN class=Info1>DRC process completed in 2 second(s).</SPAN><BR>
+</tt>
+</FONT>
+</BODY>
+
+</HTML>

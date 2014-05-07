@@ -1,0 +1,162 @@
+alog -O2 -sve   -work Simple $dsn/src/y86_splitInstruction.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 y86_splitInstruction.v : (16, 29): Syntax error. Unexpected token: 40[_UNSIGNED_NUMBER]. Expected tokens: '(' , '{'.
+# Error: VCP2000 y86_splitInstruction.v : (38, 11): Syntax error. Unexpected token: assign[_ASSIGN]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Simple $dsn/src/y86_splitInstruction.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 y86_splitInstruction.v : (35, 11): Syntax error. Unexpected token: assign[_ASSIGN]. Expected tokens: '[' , ')' , ',' , ';' , '=' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Simple $dsn/src/y86_splitInstruction.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 y86_splitInstruction.v : (23, 24): Syntax error. Unexpected token: =. Expected tokens: ''' , '#' , '(' , ')' , ',' ... .
+# Error: VCP2000 y86_splitInstruction.v : (23, 42): Syntax error. Unexpected token: ;. Expected tokens: '=' , '<=' , '+=' , '-=' , '*=' ... .
+# Error: VCP2000 y86_splitInstruction.v : (25, 17): Syntax error. Unexpected token: 4'h3[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (27, 17): Syntax error. Unexpected token: 4'h4[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (30, 17): Syntax error. Unexpected token: 4'h5[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (33, 17): Syntax error. Unexpected token: 4'h6[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (36, 17): Syntax error. Unexpected token: 4'hA[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (38, 17): Syntax error. Unexpected token: 4'hB[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (40, 20): Syntax error. Unexpected token: default[_DEFAULT]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2020 y86_splitInstruction.v : (41, 16): begin...end pair(s) mismatch detected. 1 <end> tokens are missing.
+# Error: VCP2020 y86_splitInstruction.v : (41, 16): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 y86_splitInstruction.v : (41, 16): Syntax error. Unexpected token: endcase[_ENDCASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (48, 26): Syntax error. Unexpected token: =. Expected tokens: ''' , '#' , '(' , ')' , ',' ... .
+# Error: VCP2000 y86_splitInstruction.v : (48, 45): Syntax error. Unexpected token: ;. Expected tokens: '=' , '<=' , '+=' , '-=' , '*=' ... .
+# Error: VCP2000 y86_splitInstruction.v : (51, 17): Syntax error. Unexpected token: 4'h5[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (53, 17): Syntax error. Unexpected token: 4'h7[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (55, 17): Syntax error. Unexpected token: 4'h8[_HEX_BASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (57, 20): Syntax error. Unexpected token: default[_DEFAULT]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Error: VCP2000 y86_splitInstruction.v : (58, 16): Syntax error. Unexpected token: endcase[_ENDCASE]. Expected tokens: '#' , ''' , '(' , ';' , '@' ... .
+# Compile failure 19 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Simple $dsn/src/y86_splitInstruction.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module mux2 found in current working library.
+# Info: VCP2113 Module y86_SIM_top found in current working library.
+# Info: VCP2113 Module alu found in current working library.
+# Info: VCP2113 Module regfile8x32 found in current working library.
+# $root top modules: mux2 y86_SIM_top alu regfile8x32.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Simple $dsn/src/y86_splitInstruction.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module mux2 found in current working library.
+# Info: VCP2113 Module y86_SIM_top found in current working library.
+# Info: VCP2113 Module alu found in current working library.
+# Info: VCP2113 Module regfile8x32 found in current working library.
+# $root top modules: mux2 y86_SIM_top alu regfile8x32.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Simple $dsn/src/y86_controller.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module mux2 found in current working library.
+# Info: VCP2113 Module y86_SIM_top found in current working library.
+# Info: VCP2113 Module alu found in current working library.
+# Info: VCP2113 Module regfile8x32 found in current working library.
+# $root top modules: mux2 y86_SIM_top alu regfile8x32.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Simple $dsn/src/y86_splitInstruction.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module mux2 found in current working library.
+# Info: VCP2113 Module y86_SIM_top found in current working library.
+# Info: VCP2113 Module alu found in current working library.
+# Info: VCP2113 Module regfile8x32 found in current working library.
+# $root top modules: mux2 y86_SIM_top alu regfile8x32.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Simple $dsn/src/y86_controller.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (Z:/ActiveHDLWorkspace/Y86/Simple/src/y86_controller.v, ln 31).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module mux2 found in current working library.
+# Info: VCP2113 Module y86_SIM_top found in current working library.
+# Info: VCP2113 Module alu found in current working library.
+# Info: VCP2113 Module regfile8x32 found in current working library.
+# $root top modules: mux2 y86_SIM_top alu regfile8x32.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve   -work Simple $dsn/src/y86_incrementPC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 y86_incrementPC.v : (12, 15): Syntax error. Unexpected token: =. Expected tokens: ':' , '#' , '(' , ',' , ';' ... .
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Simple $dsn/src/y86_incrementPC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5101 y86_incrementPC.v : (17, 9): Operand (cast'(reset)) is not a constant.
+# Error: VCP5101 y86_incrementPC.v : (20, 1): Operand (cast'(reset)) is not a constant.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Simple $dsn/src/y86_incrementPC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2020 y86_incrementPC.v : (20, 8): begin...end pair(s) mismatch detected. 1 <begin> tokens are missing.
+# Error: VCP2020 y86_incrementPC.v : (20, 8): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 y86_incrementPC.v : (20, 8): Syntax error. Unexpected token: end[_END]. Expected tokens: 'endmodule' , 'always' , 'and' , 'assign' , 'buf' ... .
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve   -work Simple $dsn/src/y86_incrementPC.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5101 y86_incrementPC.v : (20, 5): Operand (cast'(halt)) is not a constant.
+# Error: VCP5101 y86_incrementPC.v : (21, 1): Operand (cast'(reset)) is not a constant.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].

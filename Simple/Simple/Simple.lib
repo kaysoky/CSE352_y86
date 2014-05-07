@@ -1,0 +1,163 @@
+timestamp=1399422062713
+
+[$root]
+A/$root=22|""|0|1*46066
+BinI32/$root=3*22000
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[ClockGen]
+A/ClockGen=22|./../src/ClockGen.v|13|1*422
+BinI32/ClockGen=3*128
+R=./../src/ClockGen.v|13
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[add1]
+A/add1=22|./../src/add1.v|3|1*1848
+BinI32/add1=3*2010
+R=./../src/add1.v|3
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[add16]
+A/add16=22|./../src/add16.v|4|1*3280
+BinI32/add16=3*2560
+R=./../src/add16.v|4
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[add32]
+A/add32=22|./../src/add32.v|4|1*5099
+BinI32/add32=3*2688
+R=./../src/add32.v|4
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[add4]
+A/add4=22|./../src/add4.v|5|1*6999
+BinI32/add4=3*3019
+R=./../src/add4.v|5
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[alu]
+A/alu=22|./../src/alu.v|4|1*8727
+BinI32/alu=3*3146
+NSymbols/alu=40|0|2*3832
+R=./../src/alu.v|4
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[cla4]
+A/cla4=22|./../src/cla4.v|3|1*11059
+BinI32/cla4=3*3918
+R=./../src/cla4.v|3
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[mux2]
+A/mux2=22|./../src/mux2.v|11|1*13259
+BinI32/mux2=3*5187
+NSymbols/mux2=40|0|2*19443
+R=./../src/mux2.v|11
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[regfile8x32]
+A/regfile8x32=22|./../src/regfile8x32.v|3|1*14669
+BinI32/regfile8x32=3*6550
+NSymbols/regfile8x32=40|0|2*0
+R=./../src/regfile8x32.v|3
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[register]
+A/register=22|./../src/register.v|12|1*17464
+BinI32/register=3*8257
+NSymbols/register=40|0|2*5839
+R=./../src/register.v|12
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[y86_SIM_top]
+A/y86_SIM_top=24|.\..\src\y86_SIM_top.bde|10000|1*19025
+BinI32/y86_SIM_top=3*9294
+R=./../compile/y86_SIM_top.v|30
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[y86_controller]
+A/y86_controller=22|./../src/y86_controller.v|3|1*42815
+BinI32/y86_controller=3*20153
+NSymbols/y86_controller=40|0|2*7911
+R=./../src/y86_controller.v|3
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[y86_cpu]
+A/y86_cpu=24|.\..\src\y86_cpu.bde|10000|1*20894
+BinI32/y86_cpu=3*9722
+R=./../compile/y86_cpu.v|30
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[y86_incrementPC]
+A/y86_incrementPC=22|./../src/y86_incrementPC.v|3|1*46488
+BinI32/y86_incrementPC=3*22128
+NSymbols/y86_incrementpc=NSymbols/y86_incrementPC 40|0|2*12846
+R=./../src/y86_incrementPC.v|3
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[y86_iram]
+A/y86_iram=22|./../src/y86_iram.v|12|1*25985
+BinI32/y86_iram=3*10729
+R=./../src/y86_iram.v|12
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[y86_simtrace]
+A/y86_simtrace=22|./../src/y86_simtrace.v|3|1*28105
+BinI32/y86_simtrace=3*12573
+R=./../src/y86_simtrace.v|3
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[y86_splitInstruction]
+A/y86_splitInstruction=22|./../src/y86_splitInstruction.v|3|1*40143
+BinI32/y86_splitInstruction=3*18712
+NSymbols/y86_splitinstruction=NSymbols/y86_splitInstruction 40|0|2*15497
+R=./../src/y86_splitInstruction.v|3
+Version=9.3.2744.4995  (Windows)|0000000d789cd3cd5108cecc2dc84955d0f53702001c8503f2
+
+[~A]
+LastVerilogToplevel=regfile8x32
+ModifyID=473
+Version=73
+Z:/ActiveHDLWorkspace/Y86/Simple/compile/y86_SIM_top.v=0*8217*8839
+Z:/ActiveHDLWorkspace/Y86/Simple/compile/y86_cpu.v=0*4744*5698
+Z:/ActiveHDLWorkspace/Y86/Simple/src/ClockGen.v=0*392*943
+Z:/ActiveHDLWorkspace/Y86/Simple/src/add1.v=0*11298*11733
+Z:/ActiveHDLWorkspace/Y86/Simple/src/add16.v=0*15906*16710
+Z:/ActiveHDLWorkspace/Y86/Simple/src/add32.v=0*18891*19823
+Z:/ActiveHDLWorkspace/Y86/Simple/src/add4.v=0*13286*14025
+Z:/ActiveHDLWorkspace/Y86/Simple/src/alu.v=0*22332*23487
+Z:/ActiveHDLWorkspace/Y86/Simple/src/mux2.v=0*1814*2233
+Z:/ActiveHDLWorkspace/Y86/Simple/src/regfile8x32.v=0*24648*25442
+Z:/ActiveHDLWorkspace/Y86/Simple/src/register.v=0*3120*3591
+Z:/ActiveHDLWorkspace/Y86/Simple/src/y86_controller.v=0*35336*36069
+Z:/ActiveHDLWorkspace/Y86/Simple/src/y86_incrementPC.v=0*37190*37716
+Z:/ActiveHDLWorkspace/Y86/Simple/src/y86_iram.v=0*6685*7300
+Z:/ActiveHDLWorkspace/Y86/Simple/src/y86_simtrace.v=0*9735*10322
+Z:/ActiveHDLWorkspace/Y86/Simple/src/y86_splitInstruction.v=0*33057*33844
+
+[~MFT]
+0=30|0Simple.mgf|37716|3777
+1=21|1Simple.mgf|46488|11085
+2=5|2Simple.mgf|19443|0
+3=21|3Simple.mgf|22128|4376
+
+[~U]
+$root=12|0*36539|
+ClockGen=12|0*166||0x10
+add1=12|0*20562|
+add16=12|0*21377|
+add32=12|0*21705|
+add4=12|0*21079|
+alu=12|0*22004||0x13
+cla4=12|0*20808|
+mux2=12|0*1573||0x13
+regfile8x32=12|0*24224||0x13
+register=12|0*2875||0x13
+y86_SIM_top=12|0*8026||0x10
+y86_controller=12|0*34630||0x3
+y86_cpu=12|0*4301||0x10
+y86_incrementPC=12|0*36833||0x3
+y86_iram=12|0*6411||0x10
+y86_simtrace=12|0*9572|
+y86_splitInstruction=12|0*32608||0x3
+
