@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 9.3\bin/systf.dll" -u "C:\Aldec\Active-HDL 9.3\bin/systf.dll" -v2k5  "z:\ActiveHDLWorkspace\Y86\Foobar\src\y86_incrementPC.v"  -cs  -g 5  -r -li "z:\ActiveHDLWorkspace\Y86\Foobar\compile\Foobar.epr" -p "z:\ActiveHDLWorkspace\Y86\Foobar\Foobar" 

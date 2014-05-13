@@ -1,7 +1,7 @@
 [Version]
 Version=9.3
 [Designs]
-simple=.\Simple\Simple.adf
+foobar=.\Foobar\Foobar.adf
 [Browser]
 sort=order
 mode=none
@@ -9,7 +9,8 @@ mode=none
 order=1
 macro=
 [Expand]
-simple=1
+simple=0
 alu=0
+foobar=1
 [Settings]
-Active=simple
+Active=foobar

@@ -1,0 +1,86 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Foobar
+
+[Library]
+Foobar=.\Foobar\Foobar.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+IMPL_TOOL=
+SYNTH_TOOL=
+fileopenfolder=Z:\ActiveHDLWorkspace\Y86\Foobar\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Foobar=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[Files.Data]
+.\src\ClockGen.v=Verilog Source Code
+.\src\mux2.v=Verilog Source Code
+.\src\register.v=Verilog Source Code
+.\src\y86_controller.v=Verilog Source Code
+.\src\y86_incrementPC.v=Verilog Source Code
+.\src\y86_iram.v=Verilog Source Code
+.\src\y86_SIM_top.bde=Block Diagram
+.\src\y86_simtrace.v=Verilog Source Code
+.\src\y86_splitInstruction.v=Verilog Source Code
+.\src\add1.v=Verilog Source Code
+.\src\add4.v=Verilog Source Code
+.\src\add16.v=Verilog Source Code
+.\src\add32.v=Verilog Source Code
+.\src\alu.v=Verilog Source Code
+.\src\cla4.v=Verilog Source Code
+.\src\regfile8x32.v=Verilog Source Code
+.\src\y86_cpuV.v=Verilog Source Code
+.\compile\y86_SIM_top.v=Verilog Source Code
+
+[file_out:/y86_SIM_top.bde]
+/..\compile\y86_SIM_top.v=-1
+
+[Files]
+/ClockGen.v=-1
+/mux2.v=-1
+/register.v=-1
+/y86_controller.v=-1
+/y86_incrementPC.v=-1
+/y86_iram.v=-1
+/y86_SIM_top.bde=-1
+/y86_simtrace.v=-1
+/y86_splitInstruction.v=-1
+/y86_cpuV.v=-1
+/add1.v=-1
+/add4.v=-1
+/add16.v=-1
+/add32.v=-1
+/alu.v=-1
+/cla4.v=-1
+/regfile8x32.v=-1
+

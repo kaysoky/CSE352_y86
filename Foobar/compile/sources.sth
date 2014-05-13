@@ -1,0 +1,19 @@
+[Files List]
+C:\Aldec\Active-HDL 9.3\vlib\std/src/standard.vhd=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/add1.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/alu.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/cla4.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/add4.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/add16.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/add32.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/register.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/y86_incrementPC.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/mux2.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/regfile8x32.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/y86_controller.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/y86_splitInstruction.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/y86_simtrace.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/ClockGen.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/y86_iram.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/src/y86_cpuV.v=S
+z:\ActiveHDLWorkspace\Y86\Foobar/compile/y86_SIM_top.v=S

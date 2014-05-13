@@ -1,0 +1,1 @@
+ -erf "z:\ActiveHDLWorkspace\Y86\Foobar\compile\Foobar.erf" -work Foobar -lc z:/ActiveHDLWorkspace/Y86/library.cfg -fl z:/ActiveHDLWorkspace/Y86/Foobar/projlib.cfg -o z:/ActiveHDLWorkspace/Y86/Foobar/compile -l "Foobar" -sve   -O2

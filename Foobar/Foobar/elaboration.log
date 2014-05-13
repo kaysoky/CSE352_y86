@@ -1,0 +1,33 @@
+Active-HDL 9.3.2744.4995  2014-05-13 4:24:44 PM
+
+Elaboration top modules:
+Verilog Module                y86_SIM_top
+
+
+------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version         | Compilation Options
+------------------------------------------------------------------------------------------
+y86_SIM_top             | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+y86_cpuV                | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+y86_iram                | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+ClockGen                | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+y86_simtrace            | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+y86_splitInstruction    | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+y86_controller          | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+alu                     | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+regfile8x32             | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+mux2                    | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+y86_incrementPC         | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+register                | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+add32                   | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+add16                   | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+cla4                    | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+add4                    | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+add1                    | foobar  |      | 9.3.2744.4995  (Windows) | -l Foobar -O2
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Library                 | Comment
+------------------------------------------------------------------------------------------
+foobar                  | None
+------------------------------------------------------------------------------------------
