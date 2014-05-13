@@ -22,10 +22,6 @@ init:
 	rrmovl %eax,%ebx
 	addl %ebx,%eax
 	addl %ebx,%eax
-	addl %ebx,%eax
-	rrmovl %eax,%ebx
-	addl %ebx,%eax
-	addl %ebx,%eax
 	rrmovl %eax,%ebx
 	addl %ebx,%eax
 	halt			# Terminate program 
