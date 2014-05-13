@@ -30,8 +30,5 @@ init:
 	addl %ebx,%eax
 	halt			# Terminate program 
 
-# The stack starts here and grows to lower addresses
-	.pos 0x100		
-Stack:	 
 /* $end code-ysa */
 /* $end code-yso */
